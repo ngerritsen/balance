@@ -18,7 +18,7 @@ const App: Component = () => {
   });
 
   return (
-    <div class="md:container mx-auto px-4">
+    <div class="md:container mx-auto px-4 pb-6">
       <Header userId={userId()} />
       <Show
         when={initialized()}

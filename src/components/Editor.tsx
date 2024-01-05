@@ -6,7 +6,7 @@ import Button from "./Button";
 import Select from "./Select";
 import Label from "./Label";
 import { nanoid } from "nanoid";
-import { capitalize } from "lodash";
+import capitalize from "lodash/capitalize";
 
 type AddProps = {
   type: ItemType;
